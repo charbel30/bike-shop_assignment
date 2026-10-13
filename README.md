@@ -64,6 +64,7 @@ The app loads and should just work. Keep the phone on the same Wi-Fi as the comp
 ## video gdrive or from repo 
 
 https://drive.google.com/file/d/1HXLMsdStW2YBu_YXoVhH0gRo15uvfTwV/view?usp=sharing
+timezone difference because im travelling 
 
 ## thoughts 
 
