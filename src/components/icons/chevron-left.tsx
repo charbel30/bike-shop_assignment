@@ -1,0 +1,14 @@
+import Svg, { Path } from 'react-native-svg';
+import type { IconProps } from './icon-props';
+export function ChevronLeftIcon({ size = 16, color = 'white', ...props }: IconProps) {
+  const width = (size * 9) / 16;
+  const height = (size * 16) / 16;
+  return (
+    <Svg viewBox="0 0 9 16" fill="none" width={width} height={height} color={color} {...props}>
+      <Path
+        d="M0 7.81881C0 8.12733 0.114594 8.39177 0.36141 8.62096L7.21939 15.3379C7.41332 15.5318 7.66014 15.6376 7.95103 15.6376C8.53281 15.6376 9 15.1792 9 14.5886C9 14.2977 8.87659 14.0421 8.68266 13.8394L2.50343 7.81881L8.68266 1.79824C8.87659 1.59549 9 1.33105 9 1.04897C9 0.458374 8.53281 0 7.95103 0C7.66014 0 7.41332 0.105779 7.21939 0.299706L0.36141 7.00784C0.114594 7.24584 0 7.51028 0 7.81881Z"
+        fill="currentColor"
+      />
+    </Svg>
+  );
+}
